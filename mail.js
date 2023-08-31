@@ -47,6 +47,10 @@ for (let i = 0; i < btnplus.length; i++) {
     
 }
 
-
+const btn_next=document.getElementsByClassName("carousel-control-next")
+setInterval(function move() {
+    console.log(btn_next);
+    btn_next[0].click()
+},5000)
 
 
